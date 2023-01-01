@@ -9,3 +9,4 @@ I have heavily borrowed from the roadmap avaialable [here](https://roadmap.sh/go
   3. Having written a Web Server or worked with Web APIs in some form.
 
 ## Let's Go Gophers
+[Start Here](https://github.com/harsh098/Go-For-Devs/blob/main/101-basics/01-baby-steps.md)
