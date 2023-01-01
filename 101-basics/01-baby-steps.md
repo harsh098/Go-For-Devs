@@ -282,6 +282,8 @@ const CONST1, CONST2 type= VAL1, VAL2
 In Go numeric constants automatically assume the datatype they are needed for.
 unless specified explicitly.
 **Consider This Example**  
+>Note : Untyped Constants support Implicit Conversions 
+
 ```go
 package main
 
