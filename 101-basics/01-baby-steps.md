@@ -242,10 +242,16 @@ Constants can be character, string, boolean, or numeric values.
 They are declared using `const` keyword.  
 **Syntax**:-
 1. **Single Constant**
+(**Untyped**)  
 ```go
 const CONSTANT_NAME = CONSTANT_VALUE
 ```
-2. **Multiple Constants**
+or 
+(**Typed**)
+```go
+const CONSTANT_NAME type= CONSTANT_VALUE
+```
+2. **Multiple Constants** (Untyped)
 
 ```go
  const(
@@ -258,9 +264,23 @@ or
 ```go
 const CONST1, CONST2 = VAL1, VAL2
 ```  
+3. **Multiple Constants** (Typed)
+
+```go
+ const(
+   CONSTANT_1 type= VALUE_1
+   CONSTANT_2 type= VALUE_2
+   
+ )
+```  
+or  
+```go
+const CONST1, CONST2 type= VAL1, VAL2
+```   
+
 **Numeric Constants**  
 In Go numeric constants automatically assume the datatype they are needed for.
-
+unless specified explicitly.
 **Consider This Example**  
 ```go
 package main
